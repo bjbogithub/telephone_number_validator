@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Caesars Cipher Converter</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>US Telephone Number Validator (freeCodeCamp project for JavaScript)</h1>
+        <h3>Description</h3>
+        <p> <!-- Add an anchor/link to wikipedia in the description-->
+            Input numbers into the input field and the JavaScript code will check the validity of the numbers. 
+             The converter will tell if the numbers is in the format of the: <strong><a href="https://en.wikipedia.org/wiki/North_American_Numbering_Plan">North American Numbering Plan.</a></strong>
+        </p> 
+        <form>
+            <label for="Input">Input</label>
+            <input type="text" id="input" required> 
+            <!-- Adding the submit putton that activate the rot 13 converter javascript function when clicked -->
+            <button type="button" onclick="rot13()">Submit</button>
+        </form>
+        <p id="output"></p>
+        <!-- Here comes the external javascript import -->
+        <script src="telephone_number_validator.js"></script>
+    </body>
+</html>
